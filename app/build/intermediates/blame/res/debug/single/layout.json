@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\ProjectVideoV2-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_dev_byte_viewer.xml",
+        "source": "C:\\ProjectVideoV2-main\\app\\src\\main\\res\\layout\\activity_dev_byte_viewer.xml"
+    },
+    {
+        "merged": "C:\\ProjectVideoV2-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\devbyte_item.xml",
+        "source": "C:\\ProjectVideoV2-main\\app\\src\\main\\res\\layout\\devbyte_item.xml"
+    },
+    {
+        "merged": "C:\\ProjectVideoV2-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_dev_byte.xml",
+        "source": "C:\\ProjectVideoV2-main\\app\\src\\main\\res\\layout\\fragment_dev_byte.xml"
+    },
+    {
+        "merged": "C:\\ProjectVideoV2-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_note.xml",
+        "source": "C:\\ProjectVideoV2-main\\app\\src\\main\\res\\layout\\fragment_note.xml"
+    }
+]

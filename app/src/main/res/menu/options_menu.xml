@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/kkok"
+        android:title="Home" />
+    <item
+        android:id="@+id/noteFragment"
+        android:icon="@android:drawable/btn_star_big_on"
+        android:title="Note" />
+    <item
+        android:id="@+id/devByte"
+        android:icon="@drawable/ic_play_circle_outline_black_48dp"
+        android:title="Video" />
+</menu>

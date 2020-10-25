@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/devByte"
+        android:name="com.example.android.devbyteviewer.ui.DevByteFragment"
+        android:label="Video"
+        tools:layout="@layout/fragment_dev_byte" >
+        <action
+            android:id="@+id/action_devByte_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.android.devbyteviewer.HomeFragment"
+        android:label="Android"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_devByte"
+            app:destination="@id/devByte" />
+    </fragment>
+    <fragment
+        android:id="@+id/noteFragment"
+        android:name="com.example.android.devbyteviewer.note.notejop.NoteFragment"
+        android:label="Note" />
+</navigation>
